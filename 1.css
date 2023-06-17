@@ -1,0 +1,13 @@
+.flex{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+.roll{ animation: rol1 linear 1s; } 
+
+@keyframes rol1{ from{ transform: rotateY(0deg); }
+
+ to{ transform: rotateY(180deg); } } 
+ /* анимация */
